@@ -8,9 +8,9 @@ function Review({formValues}: ReviewType) {
     const {firstName, lastName, age} = formValues;
   return (
     <div>
-      {firstName}
-      {lastName}
-      <p>{age}</p>
+      <p>First Name:  {firstName} </p> <br/>
+      <p>Last Name: {lastName}</p> <br/>
+      <p>Age: {age}</p><br/>
     </div>
   )
 }
